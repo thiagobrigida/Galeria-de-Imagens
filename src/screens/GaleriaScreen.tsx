@@ -2,12 +2,12 @@ import React from 'react';
 import { ScrollView, Image, TouchableOpacity, StyleSheet, ImageSourcePropType } from 'react-native';
 
 const imagens: ImageSourcePropType[] = [
-    require('../../assets/img01.jpg'),
-    require('../../assets/img02.jpeg'),
-    require('../../assets/img03.jpg'),
-    require('../../assets/img04.jpg'),
-    require('../../assets/img05.jpg'),
-    require('../../assets/img06.jpg'),
+    require('../../assets/imagem1.jpg'),
+    require('../../assets/imagem2.jpeg'),
+    require('../../assets/imagem3.jpg'),
+    require('../../assets/imagem4.jpg'),
+    require('../../assets/imagem5.jpg'),
+    require('../../assets/imagem6.jpg'),
   ];
   
   const GaleriaScreen = ({ navigation }: { navigation: any }) => {
